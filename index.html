@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="//www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+	<script src="//www.parsecdn.com/js/parse-1.5.0.min.js">
+		Parse.initialize("NymCupYowmx2wbMjvFUYYInwrfhzOwVdU4HceO0A", "qpEcp0ORxYP2NbtwLgbxPNT0ErhUpzcp5V1OsWFk");
+	</script>
 </head>
 
 <body>
@@ -10,6 +12,7 @@
 </body>
 
 <script type="text/javascript">
+
 var TestObject = Parse.Object.extend("TestObject");
 var testObject = new TestObject();
 testObject.save({foo: "bar"}).then(function(object) {
